@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="main">
+    <div id="main">
         <div id="page1">
             <h1>Reclaim</h1>
             <h1>your calm</h1>
@@ -22,7 +23,22 @@
             <h5>carry only what matters and begin with what you have</h5>
             <hr class="section-divider" />
         </div>
+        <div id="page2">
+            <div id="elem-1" class="elem">
+                <img data-scroll data-scroll-speed="1" src="./planner.jpg" alt="">
+                <div data-scroll data-scroll-speed="-1" class="dets"></div>
+            </div>
+            <div id="elem-2" class="elem">
+                <img data-scroll data-scroll-speed="1" src="./mirror.jpg" alt="">
+                <div data-scroll data-scroll-speed="-1" class="dets"></div>
+            </div>
+            <div id="elem-3" class="elem">
+                <img data-scroll data-scroll-speed="1" src="./breathe.jpg" alt="">
+                <div data-scroll data-scroll-speed="-1" class="dets"></div>
+            </div>
+        </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
         integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>

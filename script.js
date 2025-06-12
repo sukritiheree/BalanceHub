@@ -1,4 +1,9 @@
 //if we use % the height/width will be according to the parent
+const scroll = new LocomotiveScroll({
+  el: document.querySelector("#main"),
+  smooth: true,
+});
+
 function videoConAnimation() {
   const videoCon = document.querySelector("#video-container");
   const playbtn = document.querySelector("#play");
