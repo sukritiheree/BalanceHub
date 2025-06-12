@@ -5,6 +5,10 @@
     box-sizing: border-box;
     
 }
+*::selection{
+    color: white;
+    background-color: black;
+}
 body,html{
     height: 100%;
     width: 100%;
@@ -24,7 +28,7 @@ body,html{
     letter-spacing: -5px;
 }
 #video-container{
-    height:100vh;
+    height:90vh;
     width:100%;
     background-color: grey;
     margin-top: 1vw;
@@ -35,12 +39,15 @@ body,html{
     width: 100%;
     object-fit: cover;
 }
-#video-container play{
-    padding: 4vw;
+#video-container #play{
+    padding: 3vw 2.2vw;
     background-color: black;
     color: white;
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-transform: uppercase;
-    position: fixed;
+    position:fixed;
     font-family: futura;
+    border-radius: 50%;
+    opacity: 0;
+    scale: 0;
 }
