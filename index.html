@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <div id="cursor"></div>
     <div id="main">
         <div id="page1">
             <h1>Reclaim</h1>
@@ -26,16 +27,22 @@
         <div id="page2">
             <div id="elem-1" class="elem">
                 <img data-scroll data-scroll-speed="1" src="./planner.jpg" alt="">
-                <div data-scroll data-scroll-speed="-1" class="dets"></div>
+                <div data-scroll data-scroll-speed="-1" class="dets">Start Your Day</div>
             </div>
             <div id="elem-2" class="elem">
                 <img data-scroll data-scroll-speed="1" src="./mirror.jpg" alt="">
-                <div data-scroll data-scroll-speed="-1" class="dets"></div>
+                <div data-scroll data-scroll-speed="-1" class="dets">Know Yourself</div>
             </div>
             <div id="elem-3" class="elem">
                 <img data-scroll data-scroll-speed="1" src="./breathe.jpg" alt="">
-                <div data-scroll data-scroll-speed="-1" class="dets"></div>
+                <div data-scroll data-scroll-speed="-1" class="dets">Breathe</div>
             </div>
+        </div>
+        <div id="page3">
+            <div class="child" id="child1"></div>
+            <div class="child" id="child2"></div>
+            <div class="child" id="child3"></div>
+            <div class="child" id="child4"></div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
