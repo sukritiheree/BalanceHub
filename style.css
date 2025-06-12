@@ -16,6 +16,14 @@ body,html{
 body{
     background-color: #F7F7F7;
 }
+#nav{
+    height:100px;
+    width: 100vw;
+    background-color: burlywood;
+    position: fixed;
+    z-index: 99;
+    padding: 20px;
+}
 #cursor{
     height: 150px;
     width: 150px;
@@ -136,7 +144,7 @@ body{
 .child{
     height:54vh;
     width:38vw;
-    background-color: cadetblue;
+    background-color: rgb(232, 190, 116);
     border:2px solid black;
     position: relative;
     
