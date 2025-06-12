@@ -1,0 +1,37 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    position: relative;
+    min-height: 100vh;
+    width:100%;
+    padding: 0 1vw;;
+    padding-top: 19vh;
+}
+#page1 h1{
+    font-size: 15.2vw;
+    text-transform: uppercase;
+    font-family: futura;
+    line-height: 14vw;
+    letter-spacing: -5px;
+}
+#video-container{
+    height:100vh;
+    width:100%;
+    background-color: grey;
+    margin-top: 1vw;
+    position: relative;
+}
+#video-container video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

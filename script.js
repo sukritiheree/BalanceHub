@@ -1,0 +1,1 @@
+//if we use % the height/width will be according to the parent
