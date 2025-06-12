@@ -27,8 +27,29 @@ body,html{
     line-height: 14vw;
     letter-spacing: -5px;
 }
+#page1 h3{
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-family: futura;
+    margin-top: 10vw;
+    text-align: center;
+}
+#page1 h5{
+    font-size: 1.2vw;
+    text-align: center;
+    margin-top: 1vw;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+#page1 .section-divider {
+  border: none;
+  border-top: 3px solid #000;  /* or #333 for a softer look */
+  margin: 4rem auto;              /* vertical spacing above and below */
+  width: 80%;                 /* full width */
+}
 #video-container{
-    height:90vh;
+    height:100vh;
     width:100%;
     background-color: grey;
     margin-top: 1vw;
