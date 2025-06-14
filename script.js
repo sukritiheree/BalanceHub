@@ -139,3 +139,20 @@ function cursorAnimation() {
   });
 }
 cursorAnimation();
+const headings = document.querySelectorAll(".dets");
+
+headings.forEach(function (elem) {
+  elem.addEventListener("mouseover", function () {
+    const container = elem.querySelector(".container");
+    if (container) {
+      container.style.opacity = "1";
+    }
+  });
+  elem.addEventListener("mouseout", function () {
+    const container = elem.querySelector(".container");
+    if (container) {
+      container.style.opacity = "0";
+    }
+  });
+});
+
